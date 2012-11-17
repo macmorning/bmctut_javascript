@@ -1,0 +1,328 @@
+char-set: UTF-8
+#
+#  File exported Sat Nov 17 22:04:15 2012
+#
+begin schema
+   name           : _TUT:JavaScript2
+   core-version   : 2
+   upgrade-version: 0
+   num-fields     : 7
+   timestamp      : 1353185950
+   owner          : JXQV2166
+   last-changed   : ADMIN
+   default-vui    : Default Administrator View
+   num-vuis       : 1
+   export-version : 11
+   schema-type    : 4
+   next-field-id  : 536870912
+   permission     : 0\2
+vui  {
+   id             : 536870912
+   name           : Default Administrator View
+   label          : Default Administrator View
+   timestamp      : 1353185950
+   vui-locale     : 
+   vui-type       : 1
+   owner          : JXQV2166
+   last-changed   : ADMIN
+   display-prop   : 3\20\4\26\Default Administrator View\265\4\848\<STYLE type="text/css">textarea#arid_WIN_0_700000002:focus {     border: 1px solid #09C;}textarea#ari
+   display-prop   : d_WIN_0_700000002 {     -webkit-border-radius: 5px;     -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);     -moz-border-radius: 5px;     -moz-bo
+   display-prop   : x-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);     border-radius: 5px;     border: 1p solid #999;}label#
+   display-prop   : label700000002 {     font-family: Tahoma, Geneva, sans-serif;}</STYLE><SCRIPT LANGUAGE="JavaScript">function checkValue(value,options,regexp,server
+   display-prop   : ,positiveGuide,negativeGuide) {  parent.F(700000005).S((new CharType(value)));  if (regexp != "") {		var re = new RegExp(regexp,options);		if (!valu
+   display-prop   : e.match(re)) {			arInvokeGuide(0,server,negativeGuide);			return;		}	}	arInvokeGuide(0,server,positiveGuide);	return;}</SCRIPT>\60019\4\21\ViewW
+   display-prop   : ebAlias536870912\
+}
+field {
+   id             : 700000001
+   name           : RegExp
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1353174408
+   owner          : JXQV2166
+   last-changed   : ADMIN
+   length-units   : 0
+   maxlength      : 0
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+ display-instance : 536870912\20\3\41\2\5511\5900\35207\12000\4\6\1\5\6\2\7\40\2147483648\14\40\1\20\4\6\RegExp\21\41\2\0\0\29696\1300\27\8\2\60\40\3\66\41\2\27334\1400\29696\35&
+ display-instance : 00\91\6\4\143\40\4294967295\151\41\2\0\1400\26771\6100\170\40\0\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0\
+}
+field {
+   id             : 700000002
+   name           : Value
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 4
+   timestamp      : 1353185867
+   owner          : JXQV2166
+   last-changed   : ADMIN
+   length-units   : 0
+   maxlength      : 100
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+ display-instance : 536870912\25\3\41\2\14060\17200\47355\20700\4\6\1\5\6\2\7\40\2147483650\14\40\1\20\4\0\\21\41\2\0\0\33295\1300\22\4\8\Optional\27\8\2\28\6\4\29\6\1\60\40\1\6&
+ display-instance : 1\40\50\66\41\2\0\0\0\0\91\6\4\143\40\4294967295\151\41\2\0\1400\33295\3500\170\40\0\231\6\1\288\6\1\289\4\8\0x6f6fff\290\4\8\0xffffff\310\6\0\5061\4\5\&
+ display-instance : email\5116\6\0\
+}
+field {
+   id             : 700000004
+   name           : Btn_Error
+   datatype       : 32
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1353185867
+   owner          : JXQV2166
+   last-changed   : ADMIN
+   permission     : 0\1
+ display-instance : 536870912\14\2\8\1\3\41\2\48256\18400\51068\21000\4\6\0\5\6\2\7\40\2147483651\21\41\2\0\0\0\0\101\9\2\641\ffd8ffe000104a46494600010100000100010000ffdb0043000&
+ display-instance : 90607080706090807080a0a090b0d160f0d0c0c0d1b14151016201d2222201d1f1f2428342c242631271f1f2d3d2d3135373a3a3a232b3f443f384334393a37ffdb0043010a0a0a0d0c0d1a0&
+ display-instance : f0f1a37251f253737373737373737373737373737373737373737373737373737373737373737373737373737373737373737373737373737ffc00011080019001903012200021101031101f&
+ display-instance : fc40017000101010100000000000000000000000006070500ffc4002e10000102040404040701000000000000000102030004051112213141061351911415427116223336536172c1ffc4001&
+ display-instance : 801000301010000000000000000000000000203050004ffc400241101000104010304030000000000000000010200030411311221910523415161b1d1ffda000c03010002110311003f00a27&
+ display-instance : 1157e6153ce53296ef2030078a9a00129245c2117caf6d49d2fd74c7324837538f4e97c1c24b932ef3428edadefa6519cc4eae5e79d536314d78d71c29c38b1398ce446fd2dda292d4b21e2c&
+ display-instance : cfcc49a113c1ad2f72936d2fa7eafef1cd1f716ae5dd61c62073e57f9faa2749afcdd2679895a93ee4cd3df58690f3df525d6720167704e573983ac3988f710561738fd498aacb1967961416&
+ display-instance : 83e82065fe67bf684de63c43f8dced1addde4e6833b093a67d85f1f1c567f1c502a74bac7c4541438b18b98ea1a4e2534bdd587749dfdceda147f8f2a8ed6dbaa1980db8dfca96137e584ee9&
+ display-instance : 237bf5d7b08bb407aafdd29fea06ed9d3b8badb4fc1f52251e8bd6c9b1105e75f546f87e9155e34ae79bd61a5372188294a5a708752346d00fa7a9f7de2b91d1d0fb76c81f9a9799992ca90a&
+ display-instance : 6a2760380afffd9\110\4\0\\111\6\1\113\6\1\114\6\1\143\40\4294967295\170\40\0\310\6\0\
+}
+field {
+   id             : 700000003
+   name           : Btn_Check
+   datatype       : 32
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1353185867
+   owner          : JXQV2166
+   last-changed   : ADMIN
+   permission     : 0\1
+ display-instance : 536870912\14\2\8\1\3\41\2\48256\18500\51068\21100\4\6\0\5\6\2\7\40\2147483652\21\41\2\0\0\0\0\101\9\2\877\ffd8ffe000104a46494600010100000100010000ffdb0084000&
+ display-instance : 90606080605090807080a09090a0d160e0d0c0c0d24131410161f2421201f1c1e1e20272c3523252f251e1e2b3b2c2f3035383835212a3d413c36413243383501090a0a0d0b0d190e0e19352&
+ display-instance : 41e243535353535353535353535353535353535353534292c2a34352c29343532353531343429292c29353429342c2c3534352c35ffc0001108002d002d03012200021101031101ffc4001a0&
+ display-instance : 00002030101000000000000000000000006070304050801ffc4003610000103030104040d05010000000000000102030400061105123141611321718107142332515263919294a1b2c142738&
+ display-instance : 3b1e122ffc400190100020301000000000000000000000000020301040500ffc40020110002020202020300000000000000000001020003111204411331212251ffda000c030100021103110&
+ display-instance : 03f006a5cd73b7a03686d080ec974652927a923d2686137e6a6a3bd8f83fdaa1e111e29bb149277328c7d687db7f9d6272aeb7c8429c0129d9636d810d137bea478b3f05489bcf513c59f828&
+ display-instance : 41b7e8ced1b704c4267ce4e59cf926cfebe6797f755ab6e4dafaab190a5d8e019774cbb9d3250dea0da5287318712318cf13ca8aa97d76a8a2e3741181b28d9ecc0a32852090527af0841f78&
+ display-instance : 15a5c2b2c2cf539cebdc7d6c7254f515de135dd8bcd63d8a3f353da9644bd75a44b92e08f095b88395afb070ed3eeacef0ace6cdf0b1ec1bfcd645bb754eb76607a1ba7609f28ca8ffc38398&
+ display-instance : fcd73a2f90961f11271b9cc2e8b69bc6f55694bda31da3d2a9cf4b5c3bceeeda32b96e78f6e454478e942a529386da1b909dc09e5caaaaefbd2cdaebd71809e9c80cf42af3f6fac841e5bcf6&
+ display-instance : 52b64ea8fea131c9529c2e3aeab694a350f8a148afd98448ac7d7b9b5235491a8482f4a794eb878a8fd07a05336075e7f6dafb4526db7f9d38f4eeb4ff135f68a1e00219899347b3003c2fdb&
+ display-instance : 32dc9cdeb711a53ccf441b7c2064b64670a3cb07bb14b34bb5d3eea36d070a283c08e14313a0a92f9ea86b278ae1a49abef5063984d56c7222350f73ab087e9c3e2abf5207c8a6bdf1673d58&
+ display-instance : 1f229a51e367b83e03fb16d6fe952b5e9e962324ec03975d3e6b49e249a7168aea26a5f7d8cf8b9504324f14a4633df8cd6635a4bda980c4b9cb3173931da6c3683da13bfbe89e3c76e2b096&
+ display-instance : 9a484a123000a6d548ab31a89a4ffd9\110\4\0\\111\6\1\113\6\1\114\6\1\143\40\4294967295\170\40\0\310\6\0\
+}
+field {
+   id             : 700000000
+   name           : Expected
+   datatype       : 6
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1353176368
+   owner          : JXQV2166
+   last-changed   : ADMIN
+   enum-value     : email
+   permission     : 0\1
+ display-instance : 536870912\19\3\41\2\5399\2000\11585\5500\4\6\1\5\6\2\7\40\2147483653\14\40\1\20\4\8\Expected\21\41\2\0\0\5399\1300\27\8\2\60\40\1\64\6\0\91\6\4\143\40\429496&
+ display-instance : 7295\151\41\2\0\1400\6186\3500\170\40\0\230\4\9\1\0\email\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\
+}
+field {
+   id             : 700000005
+   name           : Tested
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 4
+   timestamp      : 1353175342
+   owner          : ADMIN
+   last-changed   : ADMIN
+   length-units   : 0
+   maxlength      : 100
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+ display-instance : 536870912\23\3\41\2\35995\5800\57592\9300\4\6\1\5\6\2\7\40\2147483654\14\40\1\20\4\12\Tested value\21\41\2\0\0\21597\1300\27\8\2\28\6\4\29\6\1\60\40\1\61\40\&
+ display-instance : 50\66\41\2\19235\1400\21597\3500\91\6\4\143\40\4294967295\151\41\2\0\1400\18672\3500\170\40\0\231\6\0\288\6\1\289\4\8\0x6f6fff\290\4\8\0xffffff\310\6\0\&
+ display-instance : 5116\6\0\
+}
+field {
+   id             : 700000006
+   name           : Box
+   datatype       : 31
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1353185867
+   owner          : ADMIN
+   last-changed   : ADMIN
+   permission     : 0\1
+ display-instance : 536870912\13\1\6\2\3\41\2\6749\13100\59054\33700\4\6\1\5\6\2\7\40\2147483649\8\4\8\0xffffff\9\6\1\11\4\8\0x800040\14\40\1\40\41\4\6749\13100\59054\13100\5905&
+ display-instance : 4\33700\6749\33700\41\40\2\170\40\0\310\6\0\
+}
+end
+begin active link
+   name           : _TUT:JavaScript2_CheckValue_GuideResultKO
+   timestamp      : 1353184111
+   export-version : 11
+   owner          : ADMIN
+   last-changed   : ADMIN
+   actlink-order  : 10
+   wk-conn-type   : 1
+   schema-name    : _TUT:JavaScript2
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\6\1\700000005\2\0\
+   action {
+   display-prop   : 1\4\6\1\
+      id          : 700000004
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 700000003
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   else {
+   display-prop   : 1\4\6\0\
+      id          : 700000004
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   else {
+   display-prop   : 1\4\6\0\
+      id          : 700000003
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 2\60016\4\1\0\60017\4\1\0\
+   errhandler-opt : 0
+   errhandler-name: 
+end
+begin active link
+   name           : _TUT:JavaScript2_CheckValue_GuideResultOK
+   timestamp      : 1353183908
+   export-version : 11
+   owner          : ADMIN
+   last-changed   : ADMIN
+   actlink-order  : 10
+   wk-conn-type   : 1
+   schema-name    : _TUT:JavaScript2
+   enable         : 1
+   permission     : 0
+   action {
+   display-prop   : 1\4\6\1\
+      id          : 700000003
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 700000004
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 2\60016\4\1\0\60017\4\1\0\
+   errhandler-opt : 0
+   errhandler-name: 
+end
+begin active link
+   name           : _TUT:JavaScript2_SetEmailRegExp
+   timestamp      : 1353185409
+   export-version : 11
+   owner          : ADMIN
+   last-changed   : ADMIN
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : _TUT:JavaScript2
+   actlink-mask   : 2
+   actlink-focus  : 700000000
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\1\1\700000000\2\6\0\
+   action {
+      set-field   : 0\700000001\101\4\50\^[a-zA-Z0-9_\.-]+@[a-zA-Z0-9-]{2,}[.][a-zA-Z]{2,}$\
+   }
+   action {
+   display-prop   : 1\20\4\31\Please enter your email address\
+      id          : 700000002
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 2\60016\4\1\0\60017\4\1\0\
+   errhandler-opt : 0
+   errhandler-name: 
+end
+begin active link
+   name           : _TUT:JavaScript2_Set_EventHandler
+   timestamp      : 1353183717
+   export-version : 11
+   owner          : ADMIN
+   last-changed   : ADMIN
+   actlink-order  : 99
+   wk-conn-type   : 1
+   schema-name    : _TUT:JavaScript2
+   actlink-mask   : 2
+   actlink-focus  : 700000000
+   enable         : 1
+   permission     : 0
+   action {
+      command     : javascript document.getElementById('arid_WIN_0_700000002').onkeyup=function(){ checkValue(this.value,"i","$700000001$","$-6$","_TUT:JavaScript2_ResultOK
+      command     : ","_TUT:JavaScript2_ResultKO");}
+   }
+   object-prop    : 2\60016\4\1\0\60017\4\1\0\
+   errhandler-opt : 0
+   errhandler-name: 
+end
+begin container
+   name           : _TUT:JavaScript2_ResultKO
+   type           : 1
+   num-references : 1
+   timestamp      : 1353176498
+   owner          : JXQV2166
+   owning-obj     : 1\2\16\_TUT:JavaScript2\
+   last-changed   : ADMIN
+   export-version : 11
+   permission     : 0\2
+reference {
+   type           : 5
+   datatype       : 0
+   object         : _TUT:JavaScript2_CheckValue_GuideResultKO
+}
+end
+begin container
+   name           : _TUT:JavaScript2_ResultOK
+   type           : 1
+   num-references : 1
+   timestamp      : 1353176510
+   owner          : JXQV2166
+   owning-obj     : 1\2\16\_TUT:JavaScript2\
+   last-changed   : ADMIN
+   export-version : 11
+   permission     : 0\2
+reference {
+   type           : 5
+   datatype       : 0
+   object         : _TUT:JavaScript2_CheckValue_GuideResultOK
+}
+end
