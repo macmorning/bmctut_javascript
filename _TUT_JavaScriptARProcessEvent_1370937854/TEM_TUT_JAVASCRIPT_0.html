@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">  
+<html>  
+	<head>  
+		<script>  
+        function ol() {  
+			if (parent) {  
+				parent.window.MyBroker=new function() {  
+					var curwin=window;   
+					var par=parent;  
+					this.SendEventToForm=function(eventtype) {
+						console.log('running ARProcessEvent : ' + eventtype);
+						par.ARProcessEvent.Add(0, eventtype, 'data', 'source_window'); 
+					};
+					this.SendEventToField=function(eventtype) {
+						curwin.handleEvent(eventtype);
+					};
+				};  
+			}  
+        }  
+		function handleEvent(eventtype) {  
+			var textEle=document.getElementById('textid');  
+			textEle.value=eventtype;  
+		}  
+		function sendEvent() {  
+			var textEle=document.getElementById('textid');  
+			var et = textEle.value;  
+			parent.window.MyBroker.SendEventToForm(et);  
+		}  
+        </script>  
+	</head>  
+
+	<body onload=ol();>  
+			<h1>Hello World</h1>  
+			<input id=textid type=text value=foo />  
+			<input type=button value=SendEvent onclick=sendEvent(); />  
+	</body>  
+</html>  

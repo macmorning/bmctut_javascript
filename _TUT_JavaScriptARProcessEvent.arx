@@ -1,0 +1,6 @@
+CHAR-SET windows-1252
+SCHEMA "AR System Resource Definitions"
+FIELDS "Application" "Assigned To(4)" "Create Date(3)" "Datatag" "Description" "GUID(179)" "Last Modified By(5)" "Locale" "Mime Type" "Modified Date" "Name" "Request ID" "Resource" "Status" "Status-Historique" "Sub Type" "Submitter(2)" "Type" "Unique(41108)"
+FLD-ID 61001 4 3 301600300 8 179 5 160 41107 6 41100 1 41103 7 15 41106 2 41105 41108
+DTYPES CHAR CHAR TIME CHAR CHAR CHAR CHAR CHAR CHAR TIME CHAR CHAR ATTACH ENUM CHAR CHAR CHAR ENUM CHAR
+DATA "" "" 1370933880 "" "HTML form for JavaScript ARProcessEvent tutorial" "AGGAAC47AVZBJAMOHV2OEHR4DKKDTA" "ADMIN" "" "text/html" 1370937502 "_TEM_TUT_JavaScript" "000000000005290" "1 _TUT_JavaScriptARProcessEvent_1370937854\\TEM_TUT_JAVASCRIPT_0.html" 0 "1370933880ADMIN" "" "ADMIN" 0 "" 
